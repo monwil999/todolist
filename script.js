@@ -25,6 +25,14 @@
 
     document.querySelector(".js-tasks").innerHTML = htmlString;
   };
+
+  const addNewTask = (newTaskContent) => {
+    tasks.push({
+      content: newTaskContent,
+
+    });
+    render();
+  }
   const init = () => {};
   render();
 
@@ -39,6 +47,10 @@
     if (newTaskContent === "") {
       return;
     }
+
+    addNewTask(newTaskContent);
+
+   
 });
         };
 
