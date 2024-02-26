@@ -35,6 +35,10 @@
 
     const newTaskContent = document.querySelector(".js-newTask").value.trim();
     console.log(newTaskContent);
+
+    if (newTaskContent === "") {
+      return;
+    }
 });
         };
 
