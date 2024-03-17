@@ -4,7 +4,7 @@
 
 **Simple list that will help you with your daily duties.**
 
-![Bespoken](./images/Bespoken.jpg)
+![Todolist](.todolist.jpg)
 
 ## Features
 
