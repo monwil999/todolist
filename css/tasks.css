@@ -11,7 +11,6 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
-
 }
 
 .tasks__content--done {
@@ -24,7 +23,6 @@
     width: 30px;
     height: 30px;
     padding: 0px;
-
 }
 
 .tasks__button--toggleDone {
@@ -39,11 +37,8 @@
     background-color: darkgreen;
 }
 
-
-
 .tasks__button--remove {
     background-color: red;
-
 }
 
 .tasks__button--remove:hover {
@@ -52,5 +47,4 @@
 
 .tasks__button--remove:active {
     background-color: hsl(348, 61%, 26%);
-
 }
